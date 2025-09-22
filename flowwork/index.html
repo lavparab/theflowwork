@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flowwork AI — Automation Agency</title>
+    <link rel="icon" type="image/x-icon" href="/favicon-flowwork.png">
+    <meta name="description" content="AI-driven automations that eliminate bottlenecks, reduce costs, and free your team to focus on what truly matters." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white antialiased selection:bg-lime-300 selection:text-black" style="font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji">
+    <!-- Page Wrapper -->
+    <div class="min-h-screen w-full">
+      <!-- Nav -->
+      <header class="relative">
+        <div class="absolute inset-0 pointer-events-none" aria-hidden="true" style="background: radial-gradient(800px 400px at 85% -10%, rgba(193,255,114,0.10), rgba(0,0,0,0) 60%);"></div>
+        <nav class="max-w-7xl mx-auto px-6 py-6">
+          <div class="flex items-center justify-between gap-6">
+            <a href="" class="flex items-center gap-3 group">
+              <span class="text-2xl font-semibold tracking-tight text-white group-hover:text-white transition-colors">Flowwork</span>
+            </a>
+            <div class="hidden md:flex items-center gap-6">
+              <a href="#features" class="text-sm text-white/70 hover:text-white transition-colors">Features</a>
+              <a href="#process" class="text-sm text-white/70 hover:text-white transition-colors">Process</a>
+              <a href="#resources" class="text-sm text-white/70 hover:text-white transition-colors">Resources</a>
+              <a href="#contact" class="text-sm text-white/70 hover:text-white transition-colors">Contact</a>
+              <a href="https://cal.com/lavparab/free-ai-automation-audit-with-lavparab" class="inline-flex items-center gap-2 rounded-md px-3.5 py-2 text-sm font-semibold text-black hover:text-black focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all" style="background-color:#C1FF72;">
+                <i data-lucide="calendar" class="h-4 w-4"></i>
+                <span>Book a Call</span>
+              </a>
+            </div>
+            <!-- Mobile controls -->
+            <div class="md:hidden flex items-center gap-2">
+              <button id="mobileMenuButton" aria-expanded="false" aria-controls="mobileMenu" class="inline-flex items-center justify-center rounded-md p-2 border border-white/15 bg-white/[0.04] hover:bg-white/[0.08] transition-colors">
+                <i data-lucide="menu" data-icon="open" class="h-5 w-5"></i>
+                <i data-lucide="x" data-icon="close" class="h-5 w-5 hidden"></i>
+                <span class="sr-only">Toggle menu</span>
+              </button>
+              <a href="https://cal.com/lavparab/free-ai-automation-audit-with-lavparab" class="inline-flex items-center gap-2 rounded-md px-3 py-2 text-sm font-semibold text-black hover:text-black transition-colors" style="background-color:#C1FF72;">
+                <i data-lucide="calendar" class="h-4 w-4"></i>
+                <span>Book</span>
+              </a>
+            </div>
+          </div>
+          <!-- Mobile dropdown menu -->
+          <div id="mobileMenu" class="md:hidden absolute inset-x-0 top-full px-6 pb-4 z-50 hidden">
+            <div class="rounded-xl border border-white/10 bg-black/80 backdrop-blur shadow-lg ring-1 ring-white/10 overflow-hidden">
+              <div class="p-2">
+                <a href="#features" class="flex items-center justify-between rounded-md px-3 py-2 text-sm text-white/80 hover:text-white hover:bg-white/[0.04] transition-colors">
+                  <span>Features</span>
+                  <i data-lucide="chevron-right" class="h-4 w-4 text-white/60"></i>
+                </a>
+                <a href="#process" class="flex items-center justify-between rounded-md px-3 py-2 text-sm text-white/80 hover:text-white hover:bg-white/[0.04] transition-colors">
+                  <span>Process</span>
+                  <i data-lucide="chevron-right" class="h-4 w-4 text-white/60"></i>
+                </a>
+                <a href="#resources" class="flex items-center justify-between rounded-md px-3 py-2 text-sm text-white/80 hover:text-white hover:bg-white/[0.04] transition-colors">
+                  <span>Resources</span>
+                  <i data-lucide="chevron-right" class="h-4 w-4 text-white/60"></i>
+                </a>
+                <a href="#contact" class="flex items-center justify-between rounded-md px-3 py-2 text-sm text-white/80 hover:text-white hover:bg-white/[0.04] transition-colors">
+                  <span>Contact</span>
+                  <i data-lucide="chevron-right" class="h-4 w-4 text-white/60"></i>
+                </a>
+              </div>
+              <div class="border-t border-white/10 p-2 bg-white/[0.02]">
+                <a href="https://cal.com/lavparab/free-ai-automation-audit-with-lavparab" class="inline-flex w-full items-center justify-center gap-2 rounded-md px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm ring-1 ring-black/10" style="background-color:#C1FF72;">
+                  <i data-lucide="phone-call" class="h-4 w-4"></i>
+                  <span>Book a Free Strategy Call</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Hero -->
+      <section class="relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6 pt-10 pb-16 md:pt-16 md:pb-24">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div>
+              <div class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 mb-5">
+                <i data-lucide="sparkles" class="h-4 w-4 text-white/80"></i>
+                <span class="text-xs text-white/70">AI Automation Agency</span>
+              </div>
+              <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl tracking-tight font-semibold leading-tight" style="font-family: 'Instrument Sans', Inter, ui-sans-serif;">
+                Smarter Systems. Faster Growth.
+              </h1>
+              <p class="mt-5 text-base sm:text-lg md:text-xl text-white/70 max-w-2xl">
+                We design AI-driven automations that eliminate bottlenecks, reduce costs, and free your team to focus on what truly matters.
+              </p>
+              <div class="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+                <a href="https://cal.com/lavparab/free-ai-automation-audit-with-lavparab" class="inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-sm font-semibold text-black hover:text-black focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all shadow-sm ring-1 ring-black/10" style="background-color:#C1FF72;">
+                  <i data-lucide="phone-call" class="h-4 w-4"></i>
+                  <span>Book a Free Strategy Call</span>
+                </a>
+                <a href="#process" class="inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 text-sm font-medium text-white hover:text-white transition-colors border border-white/15 hover:border-white/25 bg-white/[0.03]">
+                  <i data-lucide="workflow" class="h-4 w-4"></i>
+                  <span>See how it works</span>
+                </a>
+              </div>
+
+              <div class="mt-10 grid grid-cols-3 gap-6 max-w-lg">
+                <div class="rounded-lg border border-white/10 bg-white/[0.03] p-4">
+                  <div class="flex items-center gap-2 text-sm text-white/70">
+                    <i data-lucide="cpu" class="h-4 w-4 text-white/80"></i>
+                    <span>Latency</span>
+                  </div>
+                  <p class="mt-2 text-2xl font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">-42%</p>
+                </div>
+                <div class="rounded-lg border border-white/10 bg-white/[0.03] p-4">
+                  <div class="flex items-center gap-2 text-sm text-white/70">
+                    <i data-lucide="clock-3" class="h-4 w-4 text-white/80"></i>
+                    <span>Hours saved</span>
+                  </div>
+                  <p class="mt-2 text-2xl font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">+120/mo</p>
+                </div>
+                <div class="rounded-lg border border-white/10 bg-white/[0.03] p-4">
+                  <div class="flex items-center gap-2 text-sm text-white/70">
+                    <i data-lucide="sparkle" class="h-4 w-4 text-white/80"></i>
+                    <span>Accuracy</span>
+                  </div>
+                  <p class="mt-2 text-2xl font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">+18%</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="relative">
+              <div class="absolute -inset-6 md:-inset-8 opacity-70 blur-3xl pointer-events-none" aria-hidden="true" style="background: radial-gradient(400px 220px at 70% 20%, rgba(193,255,114,0.12), rgba(0,0,0,0) 70%);"></div>
+              <div class="relative rounded-2xl border border-white/10 bg-white/[0.04] overflow-hidden">
+                <div class="flex items-center justify-between px-4 py-3 border-b border-white/10 bg-white/[0.02]">
+                  <div class="flex items-center gap-2">
+                    <span class="h-2.5 w-2.5 rounded-full bg-red-400/80"></span>
+                    <span class="h-2.5 w-2.5 rounded-full bg-yellow-300/80"></span>
+                    <span class="h-2.5 w-2.5 rounded-full bg-green-400/80"></span>
+                  </div>
+                  <span class="text-xs text-white/60">automation.flow</span>
+                </div>
+                <div class="p-6">
+                  <div class="space-y-3">
+                    <div class="flex items-center justify-between rounded-lg border border-white/10 bg-black/40 p-3">
+                      <div class="flex items-center gap-3">
+                        <i data-lucide="message-square" class="h-4 w-4 text-white/80"></i>
+                        <div>
+                          <p class="text-sm font-medium">Inbound Support</p>
+                          <p class="text-xs text-white/60">Triage + Auto-reply</p>
+                        </div>
+                      </div>
+                      <span class="text-xs rounded-md px-2 py-1 text-black" style="background-color:#C1FF72;">Active</span>
+                    </div>
+                    <div class="flex items-center justify-between rounded-lg border border-white/10 bg-black/40 p-3">
+                      <div class="flex items-center gap-3">
+                        <i data-lucide="file-cog" class="h-4 w-4 text-white/80"></i>
+                        <div>
+                          <p class="text-sm font-medium">Doc Processing</p>
+                          <p class="text-xs text-white/60">OCR + Summaries</p>
+                        </div>
+                      </div>
+                      <span class="text-xs rounded-md px-2 py-1 text-white/80 border border-white/15">Queued</span>
+                    </div>
+                    <div class="flex items-center justify-between rounded-lg border border-white/10 bg-black/40 p-3">
+                      <div class="flex items-center gap-3">
+                        <i data-lucide="git-merge" class="h-4 w-4 text-white/80"></i>
+                        <div>
+                          <p class="text-sm font-medium">CRM Sync</p>
+                          <p class="text-xs text-white/60">Enrichment + Routing</p>
+                        </div>
+                      </div>
+                      <span class="text-xs rounded-md px-2 py-1 text-white/80 border border-white/15">On schedule</span>
+                    </div>
+                  </div>
+                  <div class="mt-6 grid grid-cols-3 gap-3">
+                    <button class="flex items-center justify-center gap-2 rounded-md border border-white/10 bg-white/[0.03] px-3 py-2 text-xs text-white/80 hover:text-white hover:border-white/20 transition-colors">
+                      <i data-lucide="play" class="h-4 w-4"></i>
+                      Run
+                    </button>
+                    <button class="flex items-center justify-center gap-2 rounded-md border border-white/10 bg-white/[0.03] px-3 py-2 text-xs text-white/80 hover:text-white hover:border-white/20 transition-colors">
+                      <i data-lucide="activity" class="h-4 w-4"></i>
+                      Monitor
+                    </button>
+                    <button class="flex items-center justify-center gap-2 rounded-md border border-white/10 bg-white/[0.03] px-3 py-2 text-xs text-white/80 hover:text-white hover:border-white/20 transition-colors">
+                      <i data-lucide="sliders" class="h-4 w-4"></i>
+                      Tune
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <p class="mt-4 text-xs text-white/50 text-center">Example control panel — your stack, automated.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section id="features" class="relative">
+        <div class="max-w-7xl mx-auto px-6 py-16 md:py-24 border-t border-white/10">
+          <div class="flex items-end justify-between gap-6 mb-10">
+            <div>
+              <h2 class="text-3xl sm:text-4xl tracking-tight font-semibold" style="font-family: 'Instrument Sans', Inter;">What we deliver</h2>
+              <p class="mt-2 text-white/60">Practical, measurable automations tailored to your operations.</p>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+            <!-- Card 1 -->
+            <div class="group rounded-xl border border-white/10 bg-white/[0.03] p-6 hover:border-white/20 transition-all">
+              <div class="flex items-center gap-3">
+                <div class="h-9 w-9 rounded-lg bg-white/[0.06] border border-white/10 flex items-center justify-center">
+                  <i data-lucide="compass" class="h-4.5 w-4.5 text-white/90"></i>
+                </div>
+                <h3 class="text-lg font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">AI Consulting</h3>
+              </div>
+              <p class="mt-3 text-sm text-white/70">
+                We help you see where AI creates real impact — from clear strategies to actionable solutions tailored to your business.
+              </p>
+            </div>
+            <!-- Card 2 -->
+            <div class="group rounded-xl border border-white/10 bg-white/[0.03] p-6 hover:border-white/20 transition-all">
+              <div class="flex items-center gap-3">
+                <div class="h-9 w-9 rounded-lg bg-white/[0.06] border border-white/10 flex items-center justify-center">
+                  <i data-lucide="workflow" class="h-4.5 w-4.5 text-white/90"></i>
+                </div>
+                <h3 class="text-lg font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">Custom Automation</h3>
+              </div>
+              <p class="mt-3 text-sm text-white/70">
+                Intelligent workflows built around your unique operations, replacing repetitive tasks with seamless, scalable systems.
+              </p>
+            </div>
+            <!-- Card 3 -->
+            <div class="group rounded-xl border border-white/10 bg-white/[0.03] p-6 hover:border-white/20 transition-all">
+              <div class="flex items-center gap-3">
+                <div class="h-9 w-9 rounded-lg bg-white/[0.06] border border-white/10 flex items-center justify-center">
+                  <i data-lucide="server-cog" class="h-4.5 w-4.5 text-white/90"></i>
+                </div>
+                <h3 class="text-lg font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">AI Infrastructure Setup</h3>
+              </div>
+              <p class="mt-3 text-sm text-white/70">
+                We set up everything from data pipelines to deployment environments, creating a strong foundation for long-term AI adoption.
+              </p>
+            </div>
+            <!-- Card 4 -->
+            <div class="group rounded-xl border border-white/10 bg-white/[0.03] p-6 hover:border-white/20 transition-all">
+              <div class="flex items-center gap-3">
+                <div class="h-9 w-9 rounded-lg bg-white/[0.06] border border-white/10 flex items-center justify-center">
+                  <i data-lucide="gauge" class="h-4.5 w-4.5 text-white/90"></i>
+                </div>
+                <h3 class="text-lg font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">Ongoing Optimization</h3>
+              </div>
+              <p class="mt-3 text-sm text-white/70">
+                Your systems evolve with you. We continuously refine, update, and enhance automations so they keep delivering peak performance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Process -->
+      <section id="process" class="relative">
+        <div class="max-w-7xl mx-auto px-6 py-16 md:py-24 border-t border-white/10">
+          <div class="mb-10">
+            <h2 class="text-3xl sm:text-4xl tracking-tight font-semibold" style="font-family: 'Instrument Sans', Inter;">How we work</h2>
+            <p class="mt-2 text-white/60">Clarity first. Then fast, reliable execution.</p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+            <!-- Step -->
+            <div class="relative rounded-xl border border-white/10 bg-white/[0.03] p-6">
+              <div class="absolute -top-3 left-6">
+                <span class="inline-flex items-center justify-center rounded-full text-xs font-medium text-black h-7 px-3 shadow-sm ring-1 ring-black/10" style="background-color:#C1FF72;">1</span>
+              </div>
+              <div class="mt-2 flex items-center gap-3">
+                <i data-lucide="ear" class="h-5 w-5 text-white/90"></i>
+                <h3 class="text-base font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">Discovery Call</h3>
+              </div>
+              <p class="mt-3 text-sm text-white/70">
+                We learn about your business goals, challenges, and inefficiencies to identify the clearest opportunities for automation.
+              </p>
+            </div>
+            <!-- Step -->
+            <div class="relative rounded-xl border border-white/10 bg-white/[0.03] p-6">
+              <div class="absolute -top-3 left-6">
+                <span class="inline-flex items-center justify-center rounded-full text-xs font-medium text-black h-7 px-3 shadow-sm ring-1 ring-black/10" style="background-color:#C1FF72;">2</span>
+              </div>
+              <div class="mt-2 flex items-center gap-3">
+                <img src="/blueprint-light_ (1).png" class="h-5 w-5 text-white/90" alt="">
+                <h3 class="text-base font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">Blueprint</h3>
+              </div>
+              <p class="mt-3 text-sm text-white/70">
+                A precise strategy is mapped out, showing how AI and automation can integrate into your processes for maximum impact.
+              </p>
+            </div>
+            <!-- Step -->
+            <div class="relative rounded-xl border border-white/10 bg-white/[0.03] p-6">
+              <div class="absolute -top-3 left-6">
+                <span class="inline-flex items-center justify-center rounded-full text-xs font-medium text-black h-7 px-3 shadow-sm ring-1 ring-black/10" style="background-color:#C1FF72;">3</span>
+              </div>
+              <div class="mt-2 flex items-center gap-3">
+                <i data-lucide="boxes" class="h-5 w-5 text-white/90"></i>
+                <h3 class="text-base font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">Implementation</h3>
+              </div>
+              <p class="mt-3 text-sm text-white/70">
+                Our team designs, builds, and deploys custom workflows — seamlessly integrating AI into your existing tools and operations.
+              </p>
+            </div>
+            <!-- Step -->
+            <div class="relative rounded-xl border border-white/10 bg-white/[0.03] p-6">
+              <div class="absolute -top-3 left-6">
+                <span class="inline-flex items-center justify-center rounded-full text-xs font-medium text-black h-7 px-3 shadow-sm ring-1 ring-black/10" style="background-color:#C1FF72;">4</span>
+              </div>
+              <div class="mt-2 flex items-center gap-3">
+                <i data-lucide="line-chart" class="h-5 w-5 text-white/90"></i>
+                <h3 class="text-base font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">Optimization</h3>
+              </div>
+              <p class="mt-3 text-sm text-white/70">
+                We monitor, adapt, and scale your automations over time, ensuring they stay ahead of both your needs and industry shifts.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Resources -->
+      <section id="resources" class="relative">
+        <div class="max-w-7xl mx-auto px-6 py-16 md:py-24 border-t border-white/10">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="rounded-2xl border border-white/10 bg-white/[0.03] p-8">
+              <div class="flex items-center gap-3">
+                <div class="h-10 w-10 rounded-lg bg-white/[0.06] border border-white/10 flex items-center justify-center">
+                  <i data-lucide="download" class="h-5 w-5 text-white/90"></i>
+                </div>
+                <h3 class="text-2xl font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">Free Automation Templates</h3>
+              </div>
+              <p class="mt-3 text-sm text-white/70">
+                Kickstart your automation journey with ready-to-use workflow templates. Download and adapt them instantly to streamline everyday business tasks.
+              </p>
+              <div class="mt-6 flex items-center gap-3">
+                <a href="#" class="inline-flex items-center gap-2 rounded-md px-4 py-2.5 text-sm font-semibold text-black hover:text-black transition-all shadow-sm ring-1 ring-black/10" style="background-color:#C1FF72;">
+                  <i data-lucide="folder-down" class="h-4 w-4"></i>
+                  <span>Download Templates</span>
+                </a>
+                <span class="text-xs text-white/50">email required *</span>
+              </div>
+            </div>
+
+            <div class="rounded-2xl border border-white/10 bg-white/[0.03] overflow-hidden">
+              <div class="grid grid-cols-2 divide-x divide-white/10">
+                <div class="p-6">
+                  <div class="flex items-center gap-2 text-sm text-white/70">
+                    <i data-lucide="plug" class="h-4 w-4"></i>
+                    <span>Plug & Play</span>
+                  </div>
+                  <p class="mt-2 text-lg font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">Ready in minutes</p>
+                  <p class="mt-1 text-sm text-white/60">Import and customize with your tools and data.</p>
+                </div>
+                <div class="p-6">
+                  <div class="flex items-center gap-2 text-sm text-white/70">
+                    <i data-lucide="lock" class="h-4 w-4"></i>
+                    <span>Yours to keep</span>
+                  </div>
+                  <p class="mt-2 text-lg font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">No vendor lock-in</p>
+                  <p class="mt-1 text-sm text-white/60">Templates are platform-agnostic and flexible.</p>
+                </div>
+              </div>
+              <div class="p-6 border-t border-white/10 bg-black/30">
+                <div class="flex items-center gap-6">
+                  <div class="h-9 w-9 rounded-full overflow-hidden border border-white/10">
+                    <img src="https://images.unsplash.com/photo-1614436163996-25cee5f54290?q=80&w=240&auto=format&fit=crop" alt="Abstract 3D render" class="h-full w-full object-cover" />
+                  </div>
+                  <p class="text-sm text-white/70">Includes SOPs and example prompts to help your team adopt fast.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="relative">
+        <div class="max-w-7xl mx-auto px-6 py-16 md:py-24 border-t border-white/10">
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            <div class="lg:col-span-2">
+              <h2 class="text-3xl sm:text-4xl tracking-tight font-semibold" style="font-family: 'Instrument Sans', Inter;">Let’s Talk AI.</h2>
+              <p class="mt-3 text-white/70 max-w-2xl">Share your challenges, and we’ll explore how automation can unlock growth for your business.</p>
+              <div class="mt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+                <a href="https://cal.com/lavparab/free-ai-automation-audit-with-lavparab" class="inline-flex items-center gap-2 rounded-md px-5 py-3 text-sm font-semibold text-black hover:text-black focus:outline-none focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all shadow-sm ring-1 ring-black/10" style="background-color:#C1FF72;">
+                  <i data-lucide="calendar-check" class="h-4 w-4"></i>
+                  <span>Schedule a free consultation</span>
+                </a>
+                <a href="mailto:hello@flowwork.ai" class="inline-flex items-center gap-2 rounded-md px-5 py-3 text-sm font-medium text-white hover:text-white transition-colors border border-white/15 hover:border-white/25 bg-white/[0.03]">
+                  <i data-lucide="mail" class="h-4 w-4"></i>
+                  <span>contact@theflowwork.com</span>
+                </a>
+              </div>
+            </div>
+            <div class="rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+              <div class="flex items-center gap-3">
+                <div class="h-9 w-9 rounded-lg bg-white/[0.06] border border-white/10 flex items-center justify-center">
+                  <i data-lucide="share-2" class="h-5 w-5 text-white/90"></i>
+                </div>
+                <h3 class="text-base font-semibold tracking-tight" style="font-family: 'Instrument Sans', Inter;">Connect</h3>
+              </div>
+              <div class="mt-4 space-y-3">
+                <a href="https://www.linkedin.com/in/lavparab" class="flex items-center justify-between rounded-lg border border-white/10 bg-white/[0.03] px-4 py-3 hover:border-white/20 transition-colors">
+                  <div class="flex items-center gap-3">
+                    <i data-lucide="linkedin" class="h-4 w-4 text-white/80"></i>
+                    <span class="text-sm">LinkedIn</span>
+                  </div>
+                  <i data-lucide="arrow-up-right" class="h-4 w-4 text-white/60"></i>
+                </a>
+                <a href="https://x.com/lavparab" class="flex items-center justify-between rounded-lg border border-white/10 bg-white/[0.03] px-4 py-3 hover:border-white/20 transition-colors">
+                  <div class="flex items-center gap-3">
+                    <i data-lucide="twitter" class="h-4 w-4 text-white/80"></i>
+                    <span class="text-sm">X (Twitter)</span>
+                  </div>
+                  <i data-lucide="arrow-up-right" class="h-4 w-4 text-white/60"></i>
+                </a>
+              </div>
+              <div class="mt-6 rounded-lg border border-white/10 bg-black/30 p-4">
+                <div class="flex items-center gap-2 text-xs text-white/60">
+                  <i data-lucide="shield" class="h-4 w-4"></i>
+                  <span>No spam. No fluff. Just value.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <p class="text-xs text-white/50">© <span id="year"></span> Flowwork. All rights reserved.</p>
+          </div>
+          <div class="flex items-center gap-5">
+            <a href="#features" class="text-xs text-white/60 hover:text-white transition-colors">Features</a>
+            <a href="#process" class="text-xs text-white/60 hover:text-white transition-colors">Process</a>
+            <a href="#resources" class="text-xs text-white/60 hover:text-white transition-colors">Resources</a>
+            <a href="#contact" class="text-xs text-white/60 hover:text-white transition-colors">Contact</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+      window.addEventListener('DOMContentLoaded', () => {
+        lucide.createIcons({
+          attrs: { 'stroke-width': 1.5 }
+        });
+
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('mobileMenuButton');
+        const menu = document.getElementById('mobileMenu');
+
+        if (menuBtn && menu) {
+          const openIcon = menuBtn.querySelector('[data-icon="open"]');
+          const closeIcon = menuBtn.querySelector('[data-icon="close"]');
+
+          const setOpen = (isOpen) => {
+            menu.classList.toggle('hidden', !isOpen);
+            menuBtn.setAttribute('aria-expanded', String(isOpen));
+            if (openIcon && closeIcon) {
+              openIcon.classList.toggle('hidden', isOpen);
+              closeIcon.classList.toggle('hidden', !isOpen);
+            }
+          };
+
+          menuBtn.addEventListener('click', () => {
+            const isHidden = menu.classList.contains('hidden');
+            setOpen(isHidden);
+          });
+
+          document.addEventListener('click', (e) => {
+            if (!menu.contains(e.target) && !menuBtn.contains(e.target)) {
+              setOpen(false);
+            }
+          });
+
+          window.addEventListener('resize', () => {
+            if (window.innerWidth >= 768) setOpen(false);
+          });
+
+          // Close with Escape
+          document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') setOpen(false);
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
